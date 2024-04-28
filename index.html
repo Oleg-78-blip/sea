@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/animate.css">
+    <link rel="stylesheet" href="./scss/normalise.css">
+    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="stylesheet" href="./scss/media.css">
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body style="max-width: 1200px; margin: 0 auto;">
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li><a href="#">Formerly Scott's Cheap Flights</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section class="banner">
+                <div class="container">
+                    <div class="banner__bg" style="background: url(./images/banner-bg.png);">
+                        <div class="banner__title">
+                            <h1 class="wow fadeInLeftBig">Less overpaying.</h1>
+
+                            <h2 class="wow fadeInRightBig">More traveling.</h2>
+                            <p>Meet the travel membership that</p>
+                            <span>saves you hundreds on flights.</span>
+                            <a href="#" class="button-link">get free flight alerts
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 12H20" stroke="black" stroke-width="2" stroke-linecap="square" />
+                                    <path d="M20 12C15.5817 12 12 8.41828 12 4" stroke="black" stroke-width="2"
+                                        stroke-linecap="square" />
+                                    <path d="M20 12C15.5817 12 12 15.5817 12 20" stroke="black" stroke-width="2"
+                                        stroke-linecap="square" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="banner__brands">
+                            <h3>as seen in</h3>
+                            <div class="banner__block-img">
+                                <img src="./svg/brandname-1.svg" alt="brand name">
+                                <img src="./svg/brandname-2.svg" alt="brand name">
+                                <img src="./svg/brandname-3.svg" alt="brand name">
+                                <img src="./svg/brandname-4.svg" alt="brand name">
+                                <img src="./svg/brandname-5.svg" alt="brand name">
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <section class="info" style="background: url(./images/info-bg.png) no-repeat;">
+                <div class="container">
+                    <h2 class="wow flip">How Going Works</h2>
+                    <div class="info__card">
+                        <div class="card">
+                            <div class="card__img-top" style="height: 202px;"><img style="height: 220px;"
+                                    src="./images/airplane.png" alt="..."></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Start with your airport.</h4>
+                                <p class="card-text">SChoose US departure airports like your biggest airport,
+                                    closest airport, and maybe even your parent’s.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__img-top mt"><img style="height: 150px;" src="./images/binoculars.png"
+                                     alt="..."></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Start with your airport.</h4>
+                                <p class="card-text">SChoose US departure airports like your biggest airport,
+                                    closest airport, and maybe even your parent’s.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__img-top mt"><img style="height: 150px;" src="./images/signature.png"
+                                     alt="..."></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Start with your airport.</h4>
+                                <p class="card-text">SChoose US departure airports like your biggest airport,
+                                    closest airport, and maybe even your parent’s.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reserve">
+                        <h3>Booked. Going. Gone</h3>
+                        <p>Most deals are 40-90% off normal prices with great itineraries from the best airlines. If
+                            it's not an amazing deal, we
+                            won't send it.</p>
+                        <button class="reserve__btn button">get free flight alerts</button>
+                        <div class="hidden"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="slider collection" style="background-color: #FFFEF0;">
+                <div class="slider__title">
+                    <h2 class="wow fadeInDown flipInX" data-wow-duration="5s">Real deals</h2>
+                    <p>members booked</p>
+                </div>
+                <div class="slider-block container">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="content swiper-slide swiper-slide-transform">
+                                <img src="./images/slide-img-1.png" alt="">
+                                <div class="text-content">
+                                    <p>(71% off normally$1000+)</p>
+                                    <a>
+                                        <h4>new york sity <img src="./svg/arrow-next.svg" style="width: 24px;"
+                                                alt="">berlin
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="content swiper-slide" style="shadow: none;">
+                                <img src="images/slide-img-2.png" alt="">
+                                <div class="text-content">
+                                    <p>(71% off normally$1000+)</p>
+                                    <a>
+                                        <h4>new york sity <img src="./svg/arrow-next.svg" style="width: 24px;"
+                                                alt="">berlin
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="content swiper-slide">
+                                <img src="images/slide-img-3.png" alt="">
+                                <div class="text-content">
+                                    <p>(71% off normally$1000+)</p>
+                                    <a>
+                                        <h4>new york sity <img src="./svg/arrow-next.svg" style="width: 24px;"
+                                                alt="">berlin
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="content swiper-slide">
+                                <img src="images/slide-img-4.png" alt="">
+                                <div class="text-content">
+                                    <p>(71% off normally$1000+)</p>
+                                    <a>
+                                        <h4>new york sity <img src="./svg/arrow-next.svg" style="width: 24px;"
+                                                alt="">berlin
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="content swiper-slide">
+                                <img src="images/slide-img-5.png" alt="">
+                                <div class="text-content">
+                                    <p>(71% off normally$1000+)</p>
+                                    <a>
+                                        <h4>new york sity <img src="./svg/arrow-next.svg" style="width: 24px;"
+                                                alt="">berlin
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="content swiper-slide">
+                                <img src="images/slide-img-6.png" alt="">
+                                <div class="text-content">
+                                    <p>(71% off normally$1000+)</p>
+                                    <a>
+                                        <h4>new york sity <img src="./svg/arrow-next.svg" style="width: 24px;"
+                                                alt="">berlin
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="content swiper-slide">
+                                <img src="images/slide-img-7.png" alt="">
+                                <div class="text-content">
+                                    <p>(71% off normally$1000+)</p>
+                                    <a>
+                                        <h4>new york sity <img src="./svg/arrow-next.svg" style="width: 24px;"
+                                                alt="">berlin
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-btn">
+                            <button class="prev btn"><img src="./svg/arrow-prev.svg" alt=""></button>
+                            <button class="next btn"><img src="./svg/arrow-next.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="loved-by" style="background: url(./images/loved-by-bg.png) no-repeat;">
+                <div class="container">
+                    <h2>Loved by over</h2>
+                    <div class="loved-by__subtitle">
+                        <p>two million</p>
+                        <span>travelers</span>
+                    </div>
+               <div class="wrapper">
+                    <div class="slider single-item">
+                        <div class="slick-slide s-1">
+                            <p>"I got an alert from Going to Tokyo for $550 RT and immediately messaged my fiance to book! We visited Tokyo, Kyoto,
+                            Hiroshima, and Osaka. My fiance also proposed in Tokyo!!! Such an incredibly special trip that we'll never forget."</p>
+                        <div class="info-block">
+                            <span>Maggie H.</span>
+                            <span>Member</span>
+                        </div>
+                        </div>                    
+                        <div class="slick-slide s-2">
+                            <p>"We'd always talked about Spain, but flights were too expensive. Thanks to one of your Europe sale notifications, our
+                            flights were only around $680 for two!"</p>
+                            <div class="info-block">
+                                <span>Drew C.</span>
+                                <span>Member since 2015</span>
+                            </div>
+                        </div>                    
+                        <div class="slick-slide s-3">
+                            <p>"Thanks for the info on the Denver to Rome flight for $346 last November. At that price, I was able to turn my
+                            individual adventure trip into a super-cool family trip with my wife and two daughters."</p>
+                            <div class="info-block">
+                                <span>Thomas P.</span>
+                                <span>Member since 2017</span>
+                            </div>
+                        </div>                    
+                        <div class="slick-slide s-4">
+                            <p>"I woke up to an email detailing a sale from Atlanta to Hawaii (which feels like it never happens!), and we booked
+                            within an hour. It was totally impulsive but the best decision we’ve made in a long time! We each paid $377 roundtrip
+                            when all was said and done."</p>
+                            <div class="info-block">
+                                <span>Kristen L.</span>
+                                <span>Member since 2017</span>
+                            </div>
+                        </div>                    
+                        <div class="slick-slide s-5">
+                            <p>"I was able to take a solo trip to Europe for $400! I flew in and out of Barcelona, but I also visited Marrakech and
+                            Lisbon. So much history and culture in a 2 week period, it was incredible."</p>
+                            <div class="info-block">
+                                <span>Maggie H.</span>
+                                <span>Member</span>
+                            </div>
+                        </div>                                       
+                    </div>
+                    <div class="arrow-block">
+                        <img class="s-prev" style="background-color: #004449; 
+                        margin-right: 48px; padding: 12px; border-radius: 50%;" src="./svg/arrow-prev.svg" alt="">
+                        <img class="s-next" style="background-color: #004449; 
+                        padding: 12px; border-radius: 50%;"src="./images/slick-next.png" alt="">
+                   </div>
+                    </div>
+           </section>
+
+           <section class="without-the-stress">
+            <div class="wow flipInX without-the-stress__block" data-wow-duration=".5s">
+                <h2>Never overpay for flights again</h2>
+                <p>Everything great about going on vacation without the stress of searching for flights.</p>
+                <button class="button">get free flight alerts</button>
+            </div>
+           </section>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer__block-text">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">How it works</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Premium Membership</a></li>
+                        <li><a href="#">Elite Membership</a></li>
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">Member Stories</a></li>
+                        <li><a href="#">Referral</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                    </ul>
+                </div>
+                <div class="footer__block-text">
+                    <ul>
+                        <li><a href="">Resources</a></li>
+                        <li><a href="">On The Fly</a></li>
+                        <li><a href="">Travel Glossary</a></li>
+                        <li><a href="">Window Seat Blog</a></li>
+                        <li><a href="">How to Find Cheap Flights</a></li>
+                        <li><a href="">Study Abroad Scholarship</a></li>
+                        <li><a href="">Travel Community</a></li>
+                        <li><a href="">Advertise With Us</a></li>
+                        <li><a href="">Become an Affiliate</a></li>
+                        <li><a href="">Media Kit</a></li>
+                    </ul>
+                </div>
+                <div class="footer__block-text support">
+                    <ul>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">help center</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__block-text flex">
+                    <p><a href="#"><img src="./svg/instagram.svg" alt=""></a></p>
+                    <ul>
+                        <li class="item-title"><a href="#">Follow Us</a></li>
+                        <li><a href="#"><img src="./svg/facebook.svg" alt=""></a></li>
+                        <li><a href="#"><img src="./svg/youtube.svg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <a href=""><img src="./images/footer-logo.png" alt=""></a>
+                <ul class="footer__info">
+                    <li><a href="#">terms</a></li>
+                    <li><a href="#">privacy</a></li>
+                    <li><a href="#"><img src="" alt="">© Going 2023</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+    <script src="script/jquery.rollingslider.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
